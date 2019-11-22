@@ -59,7 +59,7 @@ class StretchyHeaderController: UICollectionViewController, UICollectionViewDele
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
-        cell.backgroundColor = .black
+//        cell.backgroundColor = 
         
         return cell
     }
